@@ -19,13 +19,13 @@ When you run deploy or package, the plugin find Parameters in `resources` sectio
 
 Then then plugin ask for these parameters to define the values ​​for them.
 
-<img src="https://github.com/toryas/serverless-cf-parameters/blob/master/docs/gif/interactive-mode.gif">
+<img src="https://github.com/toryas/serverless-cf-parameters/blob/master/docs/gif/interactive-mode.gif?raw=true">
 
 ## Parameters in JSON
 
 When you run deploy or package pass `--cf-parameters` flag and the JOSN path with the values for parameters.
 
-<img src="https://github.com/toryas/serverless-cf-parameters/blob/master/docs/gif/json-mode.gif">
+<img src="https://github.com/toryas/serverless-cf-parameters/blob/master/docs/gif/json-mode.gif?raw=true">
 
 an example:
 
