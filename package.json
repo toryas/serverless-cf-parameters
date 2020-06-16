@@ -1,6 +1,6 @@
 {
   "name": "serverless-cf-parameters",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Serverless's plugin to configure CloudFormation Parameters",
   "main": "index.js",
   "scripts": {
