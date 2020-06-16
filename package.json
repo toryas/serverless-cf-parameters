@@ -1,0 +1,36 @@
+{
+  "name": "serverless-cf-parameters",
+  "version": "1.0.0",
+  "description": "Serverless's plugin to configure CloudFormation parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "bp": "npm run gulp && npm pack lib/ ",
+    "gulp": "gulp clean && npm run build && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toryas/serverless-cf-parameters.git"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Felipe Nuñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toryas/serverless-cf-parameters/issues"
+  },
+  "homepage": "https://github.com/toryas/serverless-cf-parameters#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-file": "^0.4.0"
+  },
+  "dependencies":{
+    "inquirer": "^7.2.0"
+  }
+}
