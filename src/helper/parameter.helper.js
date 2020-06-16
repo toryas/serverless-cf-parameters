@@ -56,7 +56,11 @@ export default class ParameterHelper {
             let parameter = cfParameters[param];
             let q = new Query("input");
             q.name = param
-            q.message = `Set value for ${param}`
+            if(parameter.Description){
+                q.message = parameter.Description
+            }else{
+                q.message = `Set value for ${param}`
+            }
             if (parameter.Default) {
                 q.default = parameter.Default
             }
