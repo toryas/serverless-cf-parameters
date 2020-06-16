@@ -1,7 +1,7 @@
 {
   "name": "serverless-cf-parameters",
-  "version": "1.0.0",
-  "description": "Serverless's plugin to configure CloudFormation parameters",
+  "version": "1.1.0",
+  "description": "Serverless's plugin to configure CloudFormation Parameters",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,11 @@
     "url": "git+https://github.com/toryas/serverless-cf-parameters.git"
   },
   "keywords": [
-    "serverless"
+    "serverless",
+    "cf",
+    "cloudformation",
+    "parameters",
+    "aws"
   ],
   "author": "Felipe Nuñez",
   "license": "MIT",
