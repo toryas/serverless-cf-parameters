@@ -4,7 +4,7 @@ Serverless plugin to set CloudFormation Parameters.
 
 ## Install
 
-1. run `npm install --sade-dev serverless-cf-parameters`
+1. run `npm install --save-dev serverless-cf-parameters`
 2. add **serverless-cf-parameters** in serverless.yml plugin section
     ```yml
     plugins:
